@@ -24,7 +24,7 @@ Proyek ini bertujuan untuk membangun sistem prediksi risiko **stunting pada anak
 https://github.com/Faizz-spec/BackEnd-stunting
 by FC525D5Y0158
 https://github.com/AchmadMuchtaromZaydi/front_end_stunting/tree/main
-FC525D5Y0159, FC525D5Y0433
+by FC525D5Y0159, FC525D5Y0433
 
 ## 👥 Tim Kami
 - FC-27 ACHMAD MUCHTAROM ZAYDI FC525D5Y0159
