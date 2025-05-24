@@ -19,7 +19,8 @@ Proyek ini bertujuan untuk membangun sistem prediksi risiko **stunting pada anak
 ---
 
 ## 📂 Struktur Proyek (Unfinished)
-- File Zip(Machine Learning) by MC525D5X0112, MC525D5Y0147, MC525D5X0133
+- File(Machine Learning): model, dataset kaggle, capstone
+by MC525D5X0112, MC525D5Y0147, MC525D5X0133
 - BackEnd & FrontEnd
 https://github.com/Faizz-spec/BackEnd-stunting
 by FC525D5Y0158
