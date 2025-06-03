@@ -46,7 +46,18 @@ Kondisi ini menjadi dasar tim kami untuk merancang solusi berbasis teknologi yan
 ---
 
 ## 🏗 Arsitektur Sistem
-.
+
+
+## 📂 Struktur Proyek (Unfinished)  
+- File(Machine Learning): model, dataset kaggle, capstone
+by MC525D5X0112, MC525D5Y0147, MC525D5X0133
+Proyek ini bertujuan untuk memprediksi status stunting pada anak berdasarkan data pemeriksaan antropometri dan dataset eksternal. Model dikembangkan menggunakan data real dan dataset eksternal dari Kaggle, disimpan dalam format `.h5`, serta dikonversi ke TensorFlow.js untuk prediksi berbasis web.
+
+---
+
+## 📁 Struktur Direktori
+
+```bash
 ├── data_pemeriksaan/
 │   ├── data_pemeriksaan.csv
 │   ├── data_pemeriksaan_realXX.csv
@@ -66,13 +77,95 @@ Kondisi ini menjadi dasar tim kami untuk merancang solusi berbasis teknologi yan
 │   └── model.json
 │
 └── predict_stunting.ipynb
-
+```
 
 ---
 
-## 📂 Struktur Proyek (Unfinished)  
-- File(Machine Learning): model, dataset kaggle, capstone
-by MC525D5X0112, MC525D5Y0147, MC525D5X0133
+## 📂 Penjelasan Folder & File
+
+### `data_pemeriksaan/`
+
+Berisi 831 riwayat pemeriksaan dari 50 anak.
+
+- **`data_pemeriksaan.csv`**  
+  Dataset real awal.
+
+- **`data_pemeriksaan_realXX.csv`**  
+  Variasi dataset real untuk percobaan (filter, gabung, dsb).
+
+- **`data_pemeriksaan_scale.csv`**  
+  Hasil transformasi fitur `Gender`, `Age`, `Weight`, `Height`.
+
+- **`data_pemeriksaan_with_status.csv`**  
+  Dataset dengan penambahan label status: `berpotensi stunting`, `normal`, atau `stunting`.
+
+---
+
+### `dataset_training/`
+
+Berisi data latih dari Kaggle sebanyak 100.000 data.
+
+- **`stunting_dataset.csv`**  
+  Dataset mentah dari Kaggle.
+
+- **`stunting_dataset_with_status.csv`**  
+  Dataset yang telah:
+  - Ditambahkan kolom ID
+  - Dikonversi gender (`L=0`, `P=1`)
+  - Dihitung HAZ berdasarkan standar WHO
+  - Diberi label status stunting
+
+---
+
+### `model_h5/`
+
+Model dalam format `.h5`:
+
+- **`best_model.h5`**  
+  Model dengan akurasi validasi terbaik.
+
+- **`model_stunting.h5`**  
+  Model lain yang digunakan untuk evaluasi.
+
+---
+
+### `model-tfjs/`
+
+Model versi **TensorFlow.js** untuk digunakan di frontend/web:
+
+- **`model.json`** – Arsitektur model.
+- **`group1-shard1of1.bin`** – Bobot model.
+
+---
+
+### `predict_stunting.ipynb`
+
+Notebook prediksi untuk data real dan data dummy:
+- Preprocessing data
+- Prediksi menggunakan model
+- Visualisasi & evaluasi hasil
+
+---
+
+## ⚙️ Teknologi
+
+- Python (Pandas, Scikit-learn, TensorFlow)
+- TensorFlow.js
+- Jupyter Notebook
+- WHO Child Growth Standards (untuk HAZ)
+
+---
+
+## 🧠 Kategori Status
+
+Model mengklasifikasikan status anak menjadi:
+
+| Kategori              | Syarat HAZ        |
+|-----------------------|-------------------|
+| **Stunting**          | HAZ < -2          |
+| **Berpotensi Stunting** | -2 ≤ HAZ < -1     |
+| **Normal**            | HAZ ≥ -1          |
+
 - BackEnd & FrontEnd
 https://github.com/Faizz-spec/BackEnd-stunting
 by FC525D5Y0158
