@@ -47,11 +47,17 @@ Kondisi ini menjadi dasar tim kami untuk merancang solusi berbasis teknologi yan
 
 ## 🏗 Arsitektur Sistem
 User Input
+
    │
+   
    ▼
+   
 Data Preprocessing → Model Prediksi ML → Output Risiko
+
    │                                      │
+   
    ▼                                      ▼
+   
 Database / Dashboard Visualisasi ← Alert System
 
 ---
