@@ -5,26 +5,33 @@ SMART (Stunting Monitoring Alert Response Tools) adalah solusi digital berbasis 
 
 ---
 
-📌 Daftar Isi
-Latar Belakang
+## 📌 Daftar Isi
+  - Latar Belakang
+  - Tujuan
+  - Fitur Utama
+  - Teknologi yang Digunakan
+  - Arsitektur Sistem
+  - Cara Menjalankan Proyek
+  - Hasil & Evaluasi Model
+  - Anggota Tim
 
-Tujuan
+---
 
-Fitur Utama
+## 📖 Latar Belakang
+Stunting merupakan permasalahan kesehatan masyarakat yang mendesak di Indonesia, dengan dampak jangka panjang terhadap perkembangan kognitif, fisik, dan produktivitas anak di masa depan. Berdasarkan data dari Badan Kependudukan dan Keluarga Berencana Nasional (BKKBN) dan Kementerian Kesehatan, prevalensi stunting di Indonesia masih cukup tinggi meskipun telah terjadi penurunan dalam beberapa tahun terakhir.
 
-Teknologi yang Digunakan
+Penyebab utama dari kondisi ini seringkali berakar pada kurangnya pemantauan pertumbuhan anak secara berkelanjutan, terutama di tingkat pelayanan dasar seperti Posyandu dan Puskesmas. Salah satu kendala signifikan dalam upaya pencegahan stunting adalah masih manualnya proses pencatatan dan pelaporan data pertumbuhan anak. Data yang tersimpan secara konvensional sulit untuk dianalisis secara cepat, sehingga identifikasi anak dengan risiko stunting sering terlambat.
 
-Arsitektur Sistem
+Di sisi lain, tenaga kesehatan di lapangan memerlukan sistem yang tidak hanya mencatat data, tetapi juga mampu memberikan wawasan dan rekomendasi berbasis analisis cerdas untuk mendukung pengambilan keputusan yang tepat dan cepat.
 
-Cara Menjalankan Proyek
+---
 
-Hasil & Evaluasi Model
-
-Anggota Tim
-
-Lisensi
-
-
+## 🎯 Tujuan
+Kondisi ini menjadi dasar tim kami untuk merancang solusi berbasis teknologi yang dapat meningkatkan efektivitas pemantauan pertumbuhan anak. Melalui pendekatan design thinking, kami melakukan eksplorasi kebutuhan pengguna langsung, terutama petugas di Posyandu dan Puskesmas, dan menemukan adanya kebutuhan nyata akan sistem digital yang:
+- Intuitif dan mudah digunakan oleh tenaga kesehatan di lapangan,
+- Mampu mencatat dan memvisualisasikan data pertumbuhan anak secara efisien,
+- Dilengkapi dengan kemampuan prediktif untuk mengidentifikasi risiko stunting secara otomatis,
+- Memberikan rekomendasi berbasis data untuk mendukung intervensi dini yang tepat sasaran.
 
 ---
 
