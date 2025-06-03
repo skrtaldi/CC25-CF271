@@ -1,4 +1,4 @@
-# 💡 CC25-CF271 — SMART 
+# 💡 CC25-CF271 — SMART (Stunting Monitoring Alert Response Tools)
 
 Selamat datang di repositori **CC25-CF271** untuk Capstone Project!
 
@@ -8,7 +8,7 @@ Proyek ini bertujuan untuk membangun sistem prediksi risiko **stunting pada anak
 
 ## 🚀 Fitur Utama
 
-- 🔍 Prediksi klasifikasi risiko stunting berbasis model Machine Learning (Dense NN, Decision Tree)
+- 🔍 Prediksi klasifikasi risiko stunting berbasis model Machine Learning (Dense Neural Network, Decision Tree)
 - 🧪 Eksplorasi & preprocessing dataset (SSGI, WHO)
 - 🛠️ Integrasi RESTful API untuk komunikasi frontend–backend
 - 📱 Web app responsif untuk berbagai ukuran perangkat
@@ -19,6 +19,14 @@ Proyek ini bertujuan untuk membangun sistem prediksi risiko **stunting pada anak
 ---
 
 ## 📂 Struktur Proyek (Unfinished)
+.
+├── Model-tfjs/
+    ├── 
+├── data_pemeriksaan/
+├── dataset_training/
+├── model_h5/
+└── predict_stunting.ipynb 
+
 - File(Machine Learning): model, dataset kaggle, capstone
 by MC525D5X0112, MC525D5Y0147, MC525D5X0133
 - BackEnd & FrontEnd
