@@ -60,7 +60,7 @@ Proyek ini bertujuan untuk memprediksi status stunting pada anak berdasarkan dat
 ```bash
 ├── data_pemeriksaan/
 │   ├── data_pemeriksaan.csv
-│   ├── data_pemeriksaan_realXX.csv
+│   ├── data_pemeriksaan_real.csv
 │   ├── data_pemeriksaan_scale.csv
 │   └── data_pemeriksaan_with_status.csv
 │
