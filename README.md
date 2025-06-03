@@ -1,3 +1,9 @@
+# SMART - Stunting Monitoring Alert Response Tools
+<p align="center"> <img src="https://img.shields.io/badge/status-In%20Progress-yellow" /> <img src="https://img.shields.io/badge/team-cc25--cf271-blue" /> </p>
+SMART (Stunting Monitoring Alert Response Tools) adalah solusi digital berbasis machine learning yang dirancang untuk membantu pemangku kebijakan dan tenaga kesehatan dalam memantau dan merespons potensi risiko stunting pada anak secara dini. Proyek ini dikembangkan dalam konteks Capstone Project Dicoding x Kemendikbudristek.
+
+---
+
 # 💡 CC25-CF271 — SMART (Stunting Monitoring Alert Response Tools)
 
 Selamat datang di repositori **CC25-CF271** untuk Capstone Project!
@@ -18,11 +24,7 @@ Proyek ini bertujuan untuk membangun sistem prediksi risiko **stunting pada anak
 
 ---
 
-## 📂 Struktur Proyek (Unfinished)
-<pre lang="markdown"> ## 📂 Struktur Proyek <code> . ├── Model-tfjs/ │ ├── group1-shard1of1.bin │ └── model.json │ ├── data_pemeriksaan/ │ ├── data_pemeriksaan.csv │ ├── data_pemeriksaan_scale.csv │ └── data_pemeriksaan_with_status.csv │ ├── dataset_training/ │ ├── stunting_dataset.csv │ └── stunting_dataset_with_status.csv │ ├── model_h5/ │ ├── best_model.h5 │ └── model_stunting.h5 │ ├── predict_stunting.ipynb └── README.md </code> --- ## 🔗 Repositori Terkait ### 🧠 Machine Learning Pengembangan model ML & preprocessing 👥 MC525D5X0112, MC525D5Y0147, MC525D5X0133 ### 🔙 Backend [BackEnd Repository](https://github.com/Faizz-spec/BackEnd-stunting) 👤 FC525D5Y0158 ### 🎨 Frontend [FrontEnd Repository](https://github.com/AchmadMuchtaromZaydi/front_end_stunting/tree/main) 👤 FC525D5Y0159, FC525D5Y0433 </pre>
-
---- 
-  
+## 📂 Struktur Proyek (Unfinished)  
 - File(Machine Learning): model, dataset kaggle, capstone
 by MC525D5X0112, MC525D5Y0147, MC525D5X0133
 - BackEnd & FrontEnd
