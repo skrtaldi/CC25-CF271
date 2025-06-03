@@ -46,6 +46,26 @@ Kondisi ini menjadi dasar tim kami untuk merancang solusi berbasis teknologi yan
 ---
 
 ## 🏗 Arsitektur Sistem
+.
+├── data_pemeriksaan/
+│   ├── data_pemeriksaan.csv
+│   ├── data_pemeriksaan_realXX.csv
+│   ├── data_pemeriksaan_scale.csv
+│   └── data_pemeriksaan_with_status.csv
+│
+├── dataset_training/
+│   ├── stunting_dataset.csv
+│   └── stunting_dataset_with_status.csv
+│
+├── model_h5/
+│   ├── best_model.h5
+│   └── model_stunting.h5
+│
+├── model-tfjs/
+│   ├── group1-shard1of1.bin
+│   └── model.json
+│
+└── predict_stunting.ipynb
 
 
 ---
