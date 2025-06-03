@@ -1,6 +1,30 @@
 # SMART - Stunting Monitoring Alert Response Tools
 <p align="center"> <img src="https://img.shields.io/badge/status-In%20Progress-yellow" /> <img src="https://img.shields.io/badge/team-cc25--cf271-blue" /> </p>
-SMART (Stunting Monitoring Alert Response Tools) adalah solusi digital berbasis machine learning yang dirancang untuk membantu pemangku kebijakan dan tenaga kesehatan dalam memantau dan merespons potensi risiko stunting pada anak secara dini. Proyek ini dikembangkan dalam konteks Capstone Project Dicoding x Kemendikbudristek.
+
+SMART (Stunting Monitoring Alert Response Tools) adalah solusi digital berbasis machine learning yang dirancang untuk membantu pemangku kebijakan dan tenaga kesehatan dalam memantau dan merespons potensi risiko stunting pada anak secara dini. Proyek ini dikembangkan dalam konteks Capstone Project Dicoding. 
+
+---
+
+📌 Daftar Isi
+Latar Belakang
+
+Tujuan
+
+Fitur Utama
+
+Teknologi yang Digunakan
+
+Arsitektur Sistem
+
+Cara Menjalankan Proyek
+
+Hasil & Evaluasi Model
+
+Anggota Tim
+
+Lisensi
+
+
 
 ---
 
