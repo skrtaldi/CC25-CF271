@@ -20,6 +20,9 @@ Proyek ini bertujuan untuk membangun sistem prediksi risiko **stunting pada anak
 
 ## 📂 Struktur Proyek (Unfinished)
 <pre lang="markdown"> ## 📂 Struktur Proyek <code> . ├── Model-tfjs/ │ ├── group1-shard1of1.bin │ └── model.json │ ├── data_pemeriksaan/ │ ├── data_pemeriksaan.csv │ ├── data_pemeriksaan_scale.csv │ └── data_pemeriksaan_with_status.csv │ ├── dataset_training/ │ ├── stunting_dataset.csv │ └── stunting_dataset_with_status.csv │ ├── model_h5/ │ ├── best_model.h5 │ └── model_stunting.h5 │ ├── predict_stunting.ipynb └── README.md </code>
+
+--- 
+  
 - File(Machine Learning): model, dataset kaggle, capstone
 by MC525D5X0112, MC525D5Y0147, MC525D5X0133
 - BackEnd & FrontEnd
